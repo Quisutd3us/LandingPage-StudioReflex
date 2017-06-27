@@ -1,0 +1,146 @@
+html {
+    font-size: 16px;
+}
+
+.bordes {
+    border: solid 2px red;
+}
+
+.bordes1 {
+    border: solid 2px blue;
+}
+
+.bordes2 {
+    border: solid 2px lime;
+}
+
+.bordes3 {
+    border: solid 2px yellow;
+}
+
+header {
+    background: url(../images/mainHeader.jpg) top no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header div {
+    border-bottom: solid 1rem rgba(255, 255, 255, 0.5);
+}
+
+header i {
+    position: relative;
+    top: -40px;
+    z-index: 5;
+}
+
+
+#botones {
+    animation-name: botones, colores;
+    animation-duration: 3s, 3s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-delay: 0s, 1s;
+    animation-iteration-count: infinite, infinite;
+}
+
+#rotaciones {
+    animation-name: rotaciones;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.formulario .row .redesSociales a {
+    animation-name: botonesSociales;
+    animation-duration: 1000ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+.formulario .row .redesSociales a:hover {
+    animation-play-state: running;
+}
+
+footer div h4.lead  a i {
+    animation-name: davidGeek;
+    animation-duration: 3000ms;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotaciones {
+    0% {
+        transform: rotate(0turn) scale(1.8, 1.8);
+    }
+    50% {
+        transform: rotate(0turn) scale(1.3, 1.3);
+    }
+    100% {
+        transform: rotate(5turn) scale(2, 2);
+    }
+}
+
+@keyframes botones {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(0.8, 0.8);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes colores {
+    from {
+        background-color: indianred;
+        color: white;
+    }
+    to {
+        background-color: darkred;
+        color: white;
+    }
+}
+
+@keyframes botonesSociales {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(0.8, 0.8);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes davidGeek {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(180deg);
+    }
+}
+
+.grandesMomentos {
+    background: url(../images/imgGrandesmomentos.jpg) top no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.emailMarketing {
+    background: url(../images/imgEmailMarketing.jpg) top no-repeat;
+    background-size: cover;
+}
+
+.bg-inverse {
+    opacity: 0.8;
+}
+
+.display-1,
+.display-3 {
+    line-height: 100px;
+    letter-spacing: -0.2rem;
+}

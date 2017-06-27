@@ -1,0 +1,46 @@
+/* line 1, estilos.scss */
+html {
+  font-size: 16px; }
+
+/* line 5, estilos.scss */
+.bordes {
+  border: solid 2px red; }
+
+/* line 9, estilos.scss */
+.bordes1 {
+  border: solid 2px blue; }
+
+/* line 13, estilos.scss */
+.bordes2 {
+  border: solid 2px lime; }
+
+/* line 17, estilos.scss */
+.bordes3 {
+  border: solid 2px yellow; }
+
+/* line 21, estilos.scss */
+header {
+  border: solid 1px red;
+  background: url(/images/imgPlanes_2.png); }
+
+/* line 26, estilos.scss */
+.grandesMomentos {
+  background: url(./images/imgGrandesmomentos.jpg) top no-repeat;
+  background-size: cover;
+  height: 100vh; }
+
+/* line 32, estilos.scss */
+.emailMarketing {
+  background: url(./images/imgEmailMarketing.jpg) top no-repeat;
+  background-size: cover; }
+
+/* line 37, estilos.scss */
+.bg-inverse {
+  opacity: 0.8; }
+
+/* line 41, estilos.scss */
+.display-1, .display-3 {
+  line-height: 100px;
+  letter-spacing: -0.2rem; }
+
+/*# sourceMappingURL=estilos.css.map */
