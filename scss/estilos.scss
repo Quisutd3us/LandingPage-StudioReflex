@@ -19,19 +19,45 @@ html {
 }
 
 header {
-    background: url(../images/mainHeader.jpg) top no-repeat;
+    background: url(../images/mainHeader.jpg) fixed top no-repeat;
     background-size: cover;
     height: 100vh;
 }
 
-header div {
+#logo {
+    border-top-left-radius: 2rem;
     border-bottom: solid 1rem rgba(255, 255, 255, 0.5);
 }
 
-header i {
+header div:nth-child(3){
+    background-color: transparent;
+    height: 100%;
+}
+
+
+header i:nth-child(2)  {
     position: relative;
     top: -40px;
     z-index: 5;
+}
+
+#arribaAbajo{
+    animation-name: arribAbajo;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arribAbajo {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 
@@ -125,13 +151,13 @@ footer div h4.lead  a i {
 }
 
 .grandesMomentos {
-    background: url(../images/imgGrandesmomentos.jpg) top no-repeat;
+    background: url(../images/imgGrandesmomentos.jpg)fixed top no-repeat;
     background-size: cover;
     height: 100vh;
 }
 
 .emailMarketing {
-    background: url(../images/imgEmailMarketing.jpg) top no-repeat;
+    background: url(../images/imgEmailMarketing.jpg)fixed top no-repeat;
     background-size: cover;
 }
 
