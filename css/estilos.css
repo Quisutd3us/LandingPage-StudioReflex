@@ -163,7 +163,8 @@ footer div h4.lead a i {
             transform: rotateY(180deg); } }
 .grandesMomentos {
   background: url(../images/imgGrandesMomentos.jpg) top no-repeat;
-  background-size: cover; }
+  background-size: cover; 
+height: 100vh;}
 
 .emailMarketing {
   background: url(../images/imgEmailMarketing.jpg) top no-repeat;
